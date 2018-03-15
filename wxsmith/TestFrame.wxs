@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="TestFrame">
+		<size>989,597</size>
+		<bg>#2F4F4F</bg>
+		<id_arg>0</id_arg>
+		<object class="wxAuiNotebook" name="ID_AUINOTEBOOK1" variable="AuiNotebook1" member="yes">
+			<pos>392,48</pos>
+			<bg>#2F4F4F</bg>
+			<style>wxNO_BORDER</style>
+			<object class="AuiNotebookPage">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<fg>wxSYS_COLOUR_WINDOW</fg>
+					<bg>#2F4F4F</bg>
+					<style>wxNO_BORDER</style>
+					<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer9" member="no">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+										<object class="sizeritem">
+											<object class="wxSearchCtrl" name="ID_SEARCHCTRL1" variable="SearchCtrl1" member="yes">
+												<size>297,21</size>
+												<fg>#FFFFFF</fg>
+												<bg>#E6AE00</bg>
+												<style>wxNO_BORDER</style>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxComboBox" name="ID_COMBOBOX1" variable="ComboBox1" member="yes">
+												<size>222,21</size>
+												<handler function="OnComboBox1Selected" entry="EVT_COMBOBOX" />
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+										</object>
+									</object>
+									<flag>wxBOTTOM|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+								</object>
+								<object class="sizeritem">
+									<object class="wxListCtrl" name="ID_LISTCTRL1" variable="ListCtrl1" member="yes">
+										<size>701,400</size>
+										<fg>wxSYS_COLOUR_WINDOW</fg>
+										<bg>#2F4F4F</bg>
+										<style>wxLC_REPORT|wxNO_BORDER</style>
+									</object>
+									<flag>wxRIGHT|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>50</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+								<object class="sizeritem">
+									<object class="wxStaticBoxSizer" variable="StaticBoxSizer2" member="no">
+										<label>Add Item</label>
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+														<bitmap>D:\C++ projects\MySystem\icons\add-item-icon.png</bitmap>
+														<style>wxNO_BORDER</style>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+														<label>Add Item Details</label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<font>
+															<size>12</size>
+															<style>normal</style>
+															<weight>bold</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer8" member="no">
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+														<label>QTY    </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="qtyField" member="yes">
+														<size>215,21</size>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer7" member="no">
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+														<label>PRICE</label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="priceField" member="yes">
+														<size>215,21</size>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer6" member="no">
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+														<label>ITEM</label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="itemField" member="yes">
+														<size>210,21</size>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+														<label>ID     </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+														<size>163,21</size>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
+														<bitmap stock_id="wxART_REDO" />
+														<size>37,23</size>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBitmapButton" name="ID_BITMAPBUTTON2" variable="BitmapButton2" member="yes">
+												<bitmap>D:\C++ projects\MySystem\icons\add-item-icon_5.png</bitmap>
+												<size>58,40</size>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+						</object>
+					</object>
+				</object>
+				<label>Sales</label>
+			</object>
+		</object>
+		<object class="wxToolBar" name="ID_TOOLBAR1" variable="ToolBar1" member="yes">
+			<style>wxTB_FLAT|wxTB_3DBUTTONS|wxTB_TEXT</style>
+			<object class="tool" name="ID_ADDEMPLOYEE" variable="ToolBarItem2" member="yes">
+				<label>Add employee</label>
+				<bitmap>D:\C++ projects\MySystem\icons\Actions-contact-new-icon_6.png</bitmap>
+				<tooltip>Add Employee</tooltip>
+				<longhelp>Add Employee</longhelp>
+			</object>
+			<object class="tool" name="help" variable="ToolBarItem1" member="yes">
+				<label>Help</label>
+				<bitmap>D:\C++ projects\MySystem\icons\help.png</bitmap>
+				<tooltip>Help</tooltip>
+				<longhelp>Help</longhelp>
+			</object>
+			<object class="tool" name="exit" variable="ToolBarItem3" member="yes">
+				<label>Exit</label>
+				<bitmap>D:\C++ projects\MySystem\icons\Actions-session-exit-icon_5.png</bitmap>
+				<tooltip>Exit</tooltip>
+				<longhelp>Exit</longhelp>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-10</widths>
+			<styles>wxSB_RAISED</styles>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="yes">
+			<object class="wxMenu" variable="Menu1" member="yes">
+				<label>File</label>
+				<object class="wxMenuItem" name="ID_MENUITEM1" variable="MenuItem1" member="yes">
+					<label>Exit</label>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="yes">
+				<label>Edit</label>
+				<object class="wxMenuItem" name="ID_MENUITEM3" variable="MenuItem3" member="yes">
+					<label>Copy</label>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM4" variable="MenuItem4" member="yes">
+					<label>Cut</label>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM5" variable="MenuItem5" member="yes">
+					<label>Paste</label>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu3" member="yes">
+				<label>Settings</label>
+			</object>
+			<object class="wxMenu" variable="Menu4" member="yes">
+				<label>Help</label>
+				<object class="wxMenuItem" name="ID_MENUITEM2" variable="MenuItem2" member="yes">
+					<label>About</label>
+				</object>
+			</object>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="SalesFrame">
+		<title>Techbay</title>
+		<icon>icons\logo.png</icon>
+		<size>1200,850</size>
+		<fg>wxSYS_COLOUR_WINDOW</fg>
+		<bg>#2F4F4F</bg>
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<object class="sizeritem">
+						<object class="wxAuiNotebook" name="ID_AUINOTEBOOK1" variable="AuiNotebook1" member="yes">
+							<bg>#2F4F4F</bg>
+							<style>wxNO_BORDER</style>
+							<object class="AuiNotebookPage">
+								<object class="wxPanel" name="ID_PANEL2" variable="Panel2" member="yes">
+									<object class="wxGridSizer" variable="GridSizer2" member="no">
+										<cols>6</cols>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer12" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON7" variable="BitmapButton6" member="yes">
+														<bitmap>res\chapati.jpg</bitmap>
+														<handler function="OnBitmapButton6Click2" entry="EVT_BUTTON" />
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+														<label> Chapati </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer10" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON5" variable="BitmapButton4" member="yes">
+														<bitmap>res\chips.jpg</bitmap>
+														<handler function="OnBitmapButton4Click" entry="EVT_BUTTON" />
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+														<label> Chips </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer19" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON14" variable="BitmapButton13" member="yes">
+														<bitmap>res\samosa.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT15" variable="StaticText15" member="yes">
+														<label> Samosa </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer18" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON13" variable="BitmapButton12" member="yes">
+														<bitmap>res\samosa.jpg</bitmap>
+														<handler function="OnBitmapButton12Click" entry="EVT_BUTTON" />
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT14" variable="StaticText14" member="yes">
+														<label> Samosa </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer17" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON12" variable="BitmapButton11" member="yes">
+														<bitmap>res\samosa.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT13" variable="StaticText13" member="yes">
+														<label> Samosa </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer9" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON4" variable="BitmapButton3" member="yes">
+														<bitmap>res\samosa.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+														<label> Samosa </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer8" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON3" variable="BitmapButton2" member="yes">
+														<bitmap>res\ndazi.jpg</bitmap>
+														<handler function="OnBitmapButton2Click" entry="EVT_BUTTON" />
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+														<label> Ndazi </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer16" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON11" variable="BitmapButton10" member="yes">
+														<bitmap>res\toastplain.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT12" variable="StaticText12" member="yes">
+														<label> Toast Plain </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer15" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON10" variable="BitmapButton9" member="yes">
+														<bitmap>res\toastplain.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT11" variable="StaticText11" member="yes">
+														<label> Toast Plain </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer14" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON9" variable="BitmapButton8" member="yes">
+														<bitmap>res\toastplain.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT10" variable="StaticText10" member="yes">
+														<label> Toast Plain </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer13" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON8" variable="BitmapButton7" member="yes">
+														<bitmap>res\toastplain.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT9" variable="StaticText9" member="yes">
+														<label> Toast Plain </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer11" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON6" variable="BitmapButton5" member="yes">
+														<bitmap>res\toastplain.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+														<label> Toast Plain </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer7" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON2" variable="BitmapButton1" member="yes">
+														<bitmap>res\toastplain.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+														<label> Toast Plain </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer21" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON16" variable="BitmapButton16" member="yes">
+														<bitmap>res\chapati.jpg</bitmap>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT17" variable="StaticText17" member="yes">
+														<label> Chapati </label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+														<font>
+															<size>11</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+									</object>
+								</object>
+								<label>SNACKS</label>
+								<icon>res\cabbagechips.jpg</icon>
+							</object>
+							<object class="AuiNotebookPage">
+								<object class="wxPanel" name="ID_PANEL3" variable="Panel3" member="yes" />
+								<label>BEVERAGES</label>
+								<icon>res\chocolate.jpg</icon>
+							</object>
+							<object class="AuiNotebookPage">
+								<object class="wxPanel" name="ID_PANEL4" variable="Panel4" member="yes">
+									<object class="wxGridSizer" variable="GridSizer1" member="no">
+										<cols>3</cols>
+										<object class="sizeritem">
+											<object class="wxBoxSizer" variable="BoxSizer6" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButtonL" member="yes" />
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+														<label>Beef</label>
+														<fg>wxSYS_COLOUR_WINDOW</fg>
+														<font>
+															<size>13</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<family>swiss</family>
+															<face>Century Gothic</face>
+														</font>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+									</object>
+								</object>
+								<label>FRUITS</label>
+								<icon>D:\C++ projects\MySystem\res\micirikienyeji.jpg</icon>
+							</object>
+							<object class="AuiNotebookPage">
+								<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes" />
+								<label>Main Dish</label>
+								<icon>res\beefstewugali.jpg</icon>
+							</object>
+						</object>
+						<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>2</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizer1" member="no">
+							<label>Payment</label>
+							<orient>wxVERTICAL</orient>
+							<object class="sizeritem">
+								<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+											<bitmap>icons\add-item-icon.png</bitmap>
+											<style>wxNO_BORDER</style>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+											<label>PAYMENT</label>
+											<fg>wxSYS_COLOUR_WINDOW</fg>
+											<font>
+												<size>12</size>
+												<style>normal</style>
+												<weight>bold</weight>
+												<underlined>0</underlined>
+												<family>swiss</family>
+												<face>Century</face>
+											</font>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxListCtrl" name="ID_LISTCTRL1" variable="ListCtrl1" member="yes">
+									<size>331,246</size>
+									<fg>wxSYS_COLOUR_WINDOW</fg>
+									<bg>#2F4F4F</bg>
+									<font>
+										<size>11</size>
+										<style>normal</style>
+										<weight>normal</weight>
+										<underlined>0</underlined>
+										<family>swiss</family>
+										<face>Century</face>
+									</font>
+									<style>wxLC_REPORT|wxNO_BORDER</style>
+								</object>
+								<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxBoxSizer" variable="BoxSizer42" member="no">
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXT42" variable="StaticText42" member="yes">
+											<label>Total</label>
+											<fg>wxSYS_COLOUR_WINDOW</fg>
+											<font>
+												<size>22</size>
+												<style>normal</style>
+												<weight>bold</weight>
+												<underlined>0</underlined>
+												<family>swiss</family>
+												<face>Century</face>
+											</font>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXT43" variable="totalField" member="yes">
+											<label>Sh 0.00</label>
+											<fg>wxSYS_COLOUR_WINDOW</fg>
+											<font>
+												<size>22</size>
+												<style>normal</style>
+												<weight>bold</weight>
+												<underlined>0</underlined>
+												<family>swiss</family>
+												<face>Century</face>
+											</font>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxBoxSizer" variable="BoxSizer41" member="no">
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXT40" variable="StaticText40" member="yes">
+											<label>Discount</label>
+											<fg>wxSYS_COLOUR_WINDOW</fg>
+											<font>
+												<size>16</size>
+												<style>normal</style>
+												<weight>bold</weight>
+												<underlined>0</underlined>
+												<family>swiss</family>
+												<face>Century</face>
+											</font>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXT41" variable="StaticText41" member="yes">
+											<label>0.00</label>
+											<fg>#FF0000</fg>
+											<font>
+												<size>16</size>
+												<style>normal</style>
+												<weight>bold</weight>
+												<underlined>0</underlined>
+												<family>swiss</family>
+												<face>Century</face>
+											</font>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxBoxSizer" variable="BoxSizer40" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticText" name="ID_STATICTEXT38" variable="StaticText38" member="yes">
+													<label>Tax</label>
+													<fg>wxSYS_COLOUR_WINDOW</fg>
+													<font>
+														<size>16</size>
+														<style>normal</style>
+														<weight>bold</weight>
+														<underlined>0</underlined>
+														<family>swiss</family>
+														<face>Century</face>
+													</font>
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+											<object class="sizeritem">
+												<object class="wxStaticText" name="ID_STATICTEXT39" variable="StaticText39" member="yes">
+													<label>0.00</label>
+													<fg>#FF0000</fg>
+													<font>
+														<size>16</size>
+														<style>normal</style>
+														<weight>bold</weight>
+														<underlined>0</underlined>
+														<family>swiss</family>
+														<face>Century</face>
+													</font>
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+											</object>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+									<object class="sizeritem">
+										<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+											<label>PAY</label>
+											<fg>#FFFFFF</fg>
+											<bg>#3AC837</bg>
+											<font>
+												<size>16</size>
+												<style>normal</style>
+												<weight>bold</weight>
+												<underlined>0</underlined>
+												<family>swiss</family>
+												<face>Century</face>
+											</font>
+											<handler function="OnButton1Click" entry="EVT_BUTTON" />
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>25</border>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>25</border>
+				<option>1</option>
+			</object>
+		</object>
+		<object class="wxToolBar" name="ID_TOOLBAR1" variable="ToolBar1" member="yes">
+			<style>wxTB_FLAT|wxTB_3DBUTTONS|wxTB_TEXT</style>
+			<object class="tool" name="ID_MAINPAGE" variable="ToolBarItem2" member="yes">
+				<label>MainPage</label>
+				<bitmap>icons\logo.png</bitmap>
+			</object>
+			<object class="tool" name="help" variable="ToolBarItem1" member="yes">
+				<label>Help</label>
+				<bitmap>icons\help.png</bitmap>
+				<tooltip>Help</tooltip>
+				<longhelp>Help</longhelp>
+			</object>
+			<object class="tool" name="ID_EXIT" variable="ToolBarItem3" member="yes">
+				<label>Exit</label>
+				<bitmap>icons\Actions-session-exit-icon_5.png</bitmap>
+				<tooltip>Exit</tooltip>
+				<longhelp>Exit</longhelp>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-10</widths>
+			<styles>wxSB_RAISED</styles>
+		</object>
+	</object>
+</wxsmith>

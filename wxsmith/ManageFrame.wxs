@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="ManageFrame">
+		<title>Manage - Admin Techbay POS</title>
+		<centered>1</centered>
+		<icon>icons\logo.png</icon>
+		<size>1200,676</size>
+		<fg>wxSYS_COLOUR_WINDOW</fg>
+		<bg>#2F4F4F</bg>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxAuiNotebook" name="ID_AUINOTEBOOK1" variable="AuiNotebook1" member="yes">
+			<pos>112,432</pos>
+			<size>1032,545</size>
+			<fg>#FFFFFF</fg>
+			<bg>#2F4F4F</bg>
+			<style>wxAUI_NB_TAB_FIXED_WIDTH|wxAUI_NB_BOTTOM|wxNO_BORDER</style>
+			<object class="AuiNotebookPage">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<fg>#FFFFFF</fg>
+					<bg>#2F4F4F</bg>
+					<object class="wxGridSizer" variable="GridSizer1" member="no">
+						<cols>1</cols>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+								<object class="sizeritem">
+									<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+										<object class="sizeritem">
+											<object class="wxStaticBoxSizer" variable="StaticBoxSizer1" member="no">
+												<label>Add ADMIN</label>
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer6" member="no">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+																<bitmap>icons\Actions-contact-new-icon.png</bitmap>
+																<style>wxNO_BORDER</style>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+																<label>Add New ADMIN</label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+																<font>
+																	<size>12</size>
+																	<style>normal</style>
+																	<weight>bold</weight>
+																	<underlined>0</underlined>
+																	<family>swiss</family>
+																	<face>Century</face>
+																</font>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+																<label>First Name</label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="firstNameField" member="yes">
+																<size>210,21</size>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+																<label>Last Name</label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="lastNameField" member="yes">
+																<size>211,21</size>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer7" member="no">
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+																<label>ID No       </label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="idNoField" member="yes">
+																<size>215,21</size>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer10" member="no">
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+																<label>Phone No  </label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="phoneNoField" member="yes">
+																<size>215,21</size>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer9" member="no">
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+																<label>Username</label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="usernameField" member="yes">
+																<size>215,21</size>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBoxSizer" variable="BoxSizer8" member="no">
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+																<label>Password</label>
+																<fg>wxSYS_COLOUR_WINDOW</fg>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="passwordField" member="yes">
+																<size>215,21</size>
+																<style>wxTE_PASSWORD</style>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+												<object class="sizeritem">
+													<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
+														<bitmap>icons\Actions-contact-new-icon_4.png</bitmap>
+														<size>70,39</size>
+														<minsize>70,20</minsize>
+														<handler function="OnBitmapButton1Click" entry="EVT_BUTTON" />
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+											</object>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+										<object class="sizeritem">
+											<object class="wxListCtrl" name="ID_LISTCTRL1" variable="ListCtrl1" member="yes">
+												<fg>#FFFFFF</fg>
+												<bg>#2F4F4F</bg>
+												<style>wxLC_REPORT|wxNO_BORDER</style>
+											</object>
+											<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<option>1</option>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>2</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<label>ADMIN</label>
+			</object>
+		</object>
+		<object class="wxToolBar" name="ID_TOOLBAR1" variable="ToolBar1" member="yes">
+			<style>wxTB_FLAT|wxTB_3DBUTTONS|wxTB_TEXT|wxTB_LEFT</style>
+			<object class="tool" name="ID_MAINPAGE" variable="ToolBarItem2" member="yes">
+				<label>Main Page</label>
+				<bitmap>icons\logo.png</bitmap>
+			</object>
+			<object class="tool" name="help" variable="ToolBarItem1" member="yes">
+				<label>Help</label>
+				<bitmap>icons\help.png</bitmap>
+				<tooltip>Help</tooltip>
+				<longhelp>Help</longhelp>
+			</object>
+			<object class="tool" name="ID_EXIT" variable="ToolBarItem3" member="yes">
+				<label>Exit</label>
+				<bitmap>icons\Actions-session-exit-icon_5.png</bitmap>
+				<tooltip>Exit</tooltip>
+				<longhelp>Exit</longhelp>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-10</widths>
+			<styles>wxSB_RAISED</styles>
+		</object>
+	</object>
+</wxsmith>

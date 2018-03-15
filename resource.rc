@@ -1,0 +1,3 @@
+aaaa ICON "wx/msw/std.ico"
+item ICON "icons/item.ico"
+#include "wx/msw/wx.rc"

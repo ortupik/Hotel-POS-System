@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="MainFrame">
+		<title>TECHBAY POS</title>
+		<centered>1</centered>
+		<icon>icons\logo.png</icon>
+		<size>711,550</size>
+		<bg>wxSYS_COLOUR_WINDOW</bg>
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+					<label>HOTEL  POS</label>
+					<size>264,29</size>
+					<fg>#FFFFFF</fg>
+					<bg>wxSYS_COLOUR_WINDOWFRAME</bg>
+					<font>
+						<size>18</size>
+						<style>normal</style>
+						<weight>bold</weight>
+						<underlined>0</underlined>
+						<family>swiss</family>
+						<face>Century Gothic</face>
+					</font>
+					<maxsize>-1,40</maxsize>
+					<style>wxALIGN_CENTRE</style>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<object class="sizeritem">
+						<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+							<bitmap>icons\tecbay-large.png</bitmap>
+							<style>0</style>
+						</object>
+						<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxTOP|wxBOTTOM|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>15</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+							<label>USER</label>
+							<size>187,59</size>
+							<fg>#FFFFFF</fg>
+							<bg>wxSYS_COLOUR_WINDOWFRAME</bg>
+							<font>
+								<size>14</size>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<family>swiss</family>
+								<face>Consolas</face>
+							</font>
+							<handler function="OnButton1Click" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>20</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+							<label>ADMIN</label>
+							<size>184,57</size>
+							<fg>#FFFFFF</fg>
+							<bg>#42952D</bg>
+							<font>
+								<size>14</size>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<family>swiss</family>
+								<face>Consolas</face>
+							</font>
+							<handler function="OnButton2Click" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>20</border>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>25</border>
+			</object>
+		</object>
+	</object>
+</wxsmith>
